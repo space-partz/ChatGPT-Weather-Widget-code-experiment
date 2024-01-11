@@ -1,6 +1,27 @@
-To format the JavaScript code snippet you've provided for web presentation, I will structure it with proper indentation and comments. This will enhance readability and make it easier to understand for those who might view it on a webpage or in a documentation format. Here's the formatted code:
-
-```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and Schedule Widget</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .widget-container {
+            /* Style your widget container if needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="widget-container">
+        <!-- Your widget will be displayed here -->
+        <p>Weather and Schedule Widget</p>
+    </div>
+<script>
 // This script shows a schedule in the calendar in a widget. 
 // The script is meant to be used with a widget configured on the Home Screen.
 // You can run the script in the app to preview the widget or you can go to the Home Screen, 
@@ -190,4 +211,6 @@ async function loadAppIcon() {
 }
 ```
 
-This code is formatted with consistent indentation and spacing, making it more readable and presentable for a web audience. The comments are kept intact to explain different parts of the script. This formatting will work well in documentation, blog posts, or other web-based presentations of the code.
+</script>
+</body>
+</html>
